@@ -1,0 +1,7 @@
+ _|_|_|_|  _|        _|_|_|    _|_|_|  _|    _|  _|_|_|_|_|    _|_|    _|_|_|    _|_|_|
+ _|        _|          _|    _|        _|    _|      _|      _|    _|  _|    _|    _|
+ ${AnsiColor.BRIGHT_YELLOW}_|_|_|    _|          _|    _|  _|_|  _|_|_|_|      _|      _|_|_|_|  _|_|_|      _|
+ _|        _|          _|    _|    _|  _|    _|      _|      _|    _|  _|          _|
+ _|        _|_|_|_|  _|_|_|    _|_|_|  _|    _|      _|      _|    _|  _|        _|_|_|
+${AnsiColor.RED}::Oğuzhan Cihan :: Running Spring Boot ${spring-boot.version}
+${application.title}::SWAGGER:: http://localhost:8081/swagger-ui/index.html

@@ -1,0 +1,36 @@
+server:
+  port: 8081
+  servlet:
+    session:
+      timeout: 10s
+
+spring:
+  application:
+    name: order-service
+
+  datasource:
+    username: 'postgres'
+    url: jdbc:postgresql://localhost:5432/flight-service
+    password: '1'
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: 'true'
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  security:
+    password: 'admin1'
+    user:
+      name: 'test'
+    admin:
+      name: 'admin'
+
+
+ocihan:
+  openapi:
+    dev-url: http://localhost:8081
+    prod-url: https://oguzcihan.github.io/#home
