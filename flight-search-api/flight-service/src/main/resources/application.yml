@@ -34,3 +34,8 @@ ocihan:
   openapi:
     dev-url: http://localhost:8081
     prod-url: https://oguzcihan.github.io/#home
+
+scheduled:
+  task:
+    cron:
+      expression: "0 0 2 * * ?" #every day at 2:00
