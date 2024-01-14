@@ -7,11 +7,15 @@ services:
       POSTGRES_DB: postgres
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 1
-      PGDATA: /data/pg
+#      PGDATA: /data/pg
 
     ports:
       - 5432:5432
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - pg_data:/data/pg
+
 
 volumes:
   pg_data:
-    driver: bridge
+    driver: local
