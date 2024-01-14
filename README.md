@@ -1,4 +1,4 @@
-# Flight Service API
+# Flight Search API
 
 This project includes a simple RESTful API for managing flight information.
 
